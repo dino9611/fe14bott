@@ -1,0 +1,28 @@
+.kotak:nth-child(odd){
+    background-color: teal;
+}
+.kotak:nth-child(even){
+    background-color: tomato;
+}
+div{
+    /* border:1px solid orange; */
+}
+
+.foto{
+    transition: 1s;
+}
+.foto:hover{
+    transform: scale(1.1);
+
+}
+.skuy{
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+}
+.skuy:nth-last-child(odd){
+    background-color: grey
+}
+.container-fluid{
+    height: 200px
+}
